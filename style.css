@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("./Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: ProximaNovaRegular;
+    background-color: #edeef0;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.cell {
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.row > .cell:nth-child(1) {
+        width: 17%;
+}
+.row > .cell:nth-child(2) {
+    width: 58%;
+}
+.row > .cell:nth-child(3) {
+    width: 25%;
+    background-color:white;
+}
+
+.main-menu {
+    padding: 0;
+    margin: 0px;
+}
+.main-menu li {
+    list-style: none;
+    font-size: 14;
+    line-height: 28px;
+}
+.main-menu li a {
+    color: #00537b;
+    text-decoration: none;
+}
+
+.main-content {
+
+}
+.main-content > div {
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.second-menu a {
+    color: #00537b;
+    text-decoration: none;
+}
+.second-menu {
+    margin:0;
+    padding:0;
+}
+.second-menu > li {
+    list-style: none;
+    line-height: 28px;
+}
+.second-menu .second-menu__submenu {
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+}
+.second-menu .second-menu__submenu > li {
+    list-style: none;
+    line-height: 28px;
+}
+
+.vk {
+    width: 20px;
+}
