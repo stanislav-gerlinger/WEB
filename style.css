@@ -1,128 +1,266 @@
 @font-face {
-    font-family: "ProximaNovaLight";src: url("./fonts/ProximaNova/Light.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaLightIt";src: url("./fonts/ProximaNova/LightIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegular";src: url("./fonts/ProximaNova/Regular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegularIt";src: url("./fonts/ProximaNova/RegularIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaSemibold";src: url("./fonts/ProximaNova/Semibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaBold";src: url("./fonts/ProximaNova/Bold.woff") format("woff");font-style: normal;font-weight: normal;
+	font-family:'ProximaNovaLight';
+	src:url("ProximaNova-Light.woff");
 }
 
-@font-face {
-    font-family: "ProximaNovaCondRegular";src: url("./fonts/ProximaNova/CondRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaCondSemibold";src: url("./fonts/ProximaNova/CondSemibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaExCnLight";src: url("./fonts/ProximaNova/ExCnLight.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaExCnRegular";src: url("./fonts/ProximaNova/ExCnRegular.woff") format("woff");font-style: normal;font-weight: normal;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	line-height: 14px;
+	font-size: 12px;
+	font-weight: 300;
 }
 
-
-
-
-@font-face {
-    font-family: "ProximaNovaRegular";
-    src: url("./Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+.main {
+	width: 960px;
+	margin: 0 auto;
+	height: 366px;
+	background-color: #edeef0;
 }
 
-body {
-    font-family: ProximaNovaRegular;
-    background-color: #edeef0;
-    font-size: 14px;
+.left-bar {
+	width: 18%;
+	padding-right:5px;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 0 15px;
+.content {
+	width: 56%;
+	padding-left: 10px;
+	padding-right: 7px;
 }
 
-.row {
-    margin: 0 -15px;
-}
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.cell {
-    float: left;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-.row > .cell:nth-child(1) {
-        width: 17%;
-}
-.row > .cell:nth-child(2) {
-    width: 58%;
-}
-.row > .cell:nth-child(3) {
-    width: 25%;
-    background-color:white;
+.right-bar {
+	width: 26%;
+	padding-left: 7px;
+	padding-right: 26px;
 }
 
-.main-menu {
-    padding: 0;
-    margin: 0px;
-}
-.main-menu li {
-    list-style: none;
-    font-size: 14;
-    line-height: 28px;
-}
-.main-menu li a {
-    color: #00537b;
-    text-decoration: none;
+.left-bar, .content, .right-bar {
+	float:left;
+	margin-top:8px;
 }
 
-.main-content {
-
-}
-.main-content > div {
-    background-color: white;
-    margin-bottom: 15px;
-    border-radius: 3px;
-    padding: 10px 15px;
+.navbar {
+	text-align: left;
+	margin-top:8px;
+	margin-left:20px;
 }
 
-.second-menu a {
-    color: #00537b;
-    text-decoration: none;
-}
-.second-menu {
-    margin:0;
-    padding:0;
-}
-.second-menu > li {
-    list-style: none;
-    line-height: 28px;
-}
-.second-menu .second-menu__submenu {
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-}
-.second-menu .second-menu__submenu > li {
-    list-style: none;
-    line-height: 28px;
+.navbar li {
+	margin-bottom:12px;
+	list-style:none;
 }
 
-.vk {
-    width: 20px;
+.navbar li a {
+	text-decoration: none;
+	color: #285473;
 }
+
+.line {
+	border:1px solid #dfe2e8;
+	margin: 18px 2px 12px 32px;
+}
+
+.count {
+	font-size: 11px;
+	color: #5b6e85;
+}
+
+.warp-count {
+	display: inline-block;
+	border-radius: 2px;
+	text-align: center;
+	background-color: #d1d9e0;
+	float: right;
+	width: 18px;
+	height: 20px;
+	margin-top:-3px;
+	padding-top: 3px;	
+}
+
+.content-top {
+	height: 51px;
+	padding: 16px 18px 16px 57px;
+}
+
+.content-center {
+	padding: 16px 20px;
+}
+
+.content-bottom {
+	height: 56px;
+
+}
+.wrap {
+	box-shadow:0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	border-radius: 2px;
+	background-color: #fff;
+}
+
+.content-center, .content-top, .content-bottom  {
+	margin-bottom:14px;
+}
+
+.content-bottom {
+	margin-bottom: 0;
+	padding-top:16px;
+	text-align: center;
+	color: #656565;
+}
+
+
+.content-bottom span {
+	margin-right: 30px;
+}
+
+.content-bottom img {
+	float: right;
+	margin-right: 22px;
+}
+
+.content-bottom div {
+	border-top:1px solid #dfe2e8;
+	height: 1px;
+	margin-top: 11px;
+}
+
+.empty {
+	background-color: #fff;
+	height: 2px;
+}
+
+.content-icon {
+	width: 17px;
+	height: 17px;
+	opacity: 0.7;
+}
+
+.content-text {
+	line-height: 18px;
+	color: #898584;
+	text-align:center;
+	float:left;
+}
+
+.icon-wrap {
+	display: inline-block;
+	float:right;
+	text-align: center;
+}
+
+.icon-wrap img {
+	opacity: 0.7;
+	margin-right: 3px;
+}
+
+.icon-wrap .color-icon {
+	width: 20px;
+	height: 19px;
+	opacity: 1;
+	margin: 0;
+}
+
+.icon-wrap div {
+	display: inline-block;
+	width: 1px;
+	height: 19px;
+	background-color: #dfe2e8;
+	margin: 0 10px;
+}
+
+.title {
+	margin-bottom: 7px;
+}
+.title-right {
+	color:#898584;
+	float: right;
+}
+
+.content-body p {
+	font-family: 'ProximaNovaLight';
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 21px;
+}
+
+.right-bar .wrap {
+	height: 300px;
+	padding-top:6px;
+
+}
+
+.active {
+	height: 31px;
+	background-color: #edeef0;
+	border-left: 2px solid #5181B8;
+
+}
+
+.active a {
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: 18px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.active img {
+	float: right;
+	opacity: 0.7;
+	margin-top: 8px;
+	margin-right:8px;
+}
+
+.wrap .navbar li {
+	margin-bottom:16px;
+}
+.under-bar {
+	margin-left:10px;
+}
+
+.under-bar li a {
+	color: #656565;
+}
+
+.wrap .line {
+	margin:0 10px 0 0;
+}
+
+.right-bar .bottom-bar {
+	padding:10px 10px 7px 15px;
+	margin-top: 15px;
+	height: 35px;
+	
+}
+
+.bottom-bar img {
+	float: left;
+	padding-right:9px;
+}
+
+.circle {
+	position: relative;
+	background-color:#5082b7;
+	width: 14px;
+	height:15px;
+	float: right;
+	display: inline-block;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+.rectangle {
+	float:right;
+	display: inline-block;
+	height: 7px;
+	width: 15px;
+	background-color: #B8D0E2;
+	border-radius: 2px;
+	margin-top:4px;
+	margin-right: -5px;
+
+}
+
