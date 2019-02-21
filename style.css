@@ -1,128 +1,197 @@
+.box3 li a {
+	padding:0px;
+	color:#2e6083;
+	text-decoration: none;
+	line-height: 1.7;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+.aa {
+	padding:0px;
+	color:#2e6083;
+	text-decoration: none;
+	margin-top: 10px;
+}
+li {
+    list-style-type: none;
+   }
+
+.box5 {
+	border-radius: 4px;
+	box-shadow: 0 0 1px 1px #d7d8db;
+	background: #fff;
+	height: 50px;
+	width:550px;
+	position: absolute;
+	float:right;
+	top: 15px;
+	left: 635px;
+	
+}
+
+.box6 {
+	border-radius: 4px;
+	box-shadow: 0 0 1px 1px #d7d8db;
+	background: #fff;
+	height: 250px;
+	width:550px;
+	position: absolute;
+	float:right;
+	top: 75px;
+	left: 635px;
+}
+.box7 {
+	border-radius: 4px;
+	box-shadow: 0 0 1px 1px #d7d8db;
+	background: #fff;
+	height: 315px;
+	width:230px;
+	position: absolute;
+	float:right;
+	top: 15px;
+	left: 1200px;
+}
+.text1 {
+	margin-left: 60px;
+    margin-top: 15px;
+	color: #828282;
+}
+.text3 {
+	line-height: 1.8;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 15px;
+	color:#2a5885;
+	text-decoration: none;
+}
+.subm a {
+	text-decoration: none;
+	padding:0px;
+	margin-left: 0px;
+	color: #656565;
+	margin: 0px
+}
+.polosa3 {
+	height:1px;
+	background: #e7e8ec;
+	width: 200px;
+	margin-top:15px;
+}
+.text333 {
+	padding: 0px;
+	margin-top:15px;
+	line-height: 1.8;
+}
+.line1 {
+	width: 115px;
+	height:1px;
+	background: #dfe2e8;
+	margin-left: 455px;
+	margin-top: 15px;
+}
+.line2 {
+	width: 115px;
+	height:1px;
+	background: #dfe2e8;
+	margin-left: 455px;
+	margin-top: 10px;
+}
+.aaa {
+	padding:0px;
+	line-height: 1.7;
+	color:#2e6083;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.text22 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.text222 {
+	position:absolute;
+	left:455px;
+	top: 20px;
+	color: #949492;
+}
+.texst2222 {
+	font-family: 'Proxima Nova Extra Condensed Semibold';
+	line-height: 1.4;
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 17px;
+}
+.img1 {
+	position: absolute;
+	left: 380px;
+	top: 19px
+}
+.img2 {
+	position: absolute;
+	left: 408px;
+	top: 19px
+}
+.img3 {
+	position: absolute;
+	left: 433px;
+	top: 19px
+}
+.img4 {
+	position: absolute;
+	left: 457px;
+	top: 19px
+}
+.img5 {
+	position: absolute;
+	left: 509px;
+	top: 15px
+}
+.line5 {
+	position:absolute;
+	height: 20px;
+	width: 1px;
+	background-color:#e7e8ec;
+	left: 491px;
+	top: 16px;
+}
+.sl1 {
+	color:#2a5885;
+	text-decoration: none;
+}
+.sl2 {
+	text-decoration: none;
+	color: #949492;
+}
+.boxbox2{
+	position:absolute;
+	background-color: #fff;
+	height: 40px;
+	width: 230px;
+	border-radius: 4px;
+	box-shadow: 0 0 1px 1px #d7d8db;
+	left: 1200px;
+	top: 340px
+}
+.boxbox3 {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+.boxbox4 {
+	left:34px;
+	position:absolute;
+	top:12px;
+}
+.boxbox5 {
+	position:absolute;
+	top: 2px;
+	left: 155px;
+}
 @font-face {
-    font-family: "ProximaNovaLight";src: url("./fonts/ProximaNova/Light.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaLightIt";src: url("./fonts/ProximaNova/LightIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegular";src: url("./fonts/ProximaNova/Regular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegularIt";src: url("./fonts/ProximaNova/RegularIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaSemibold";src: url("./fonts/ProximaNova/Semibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaBold";src: url("./fonts/ProximaNova/Bold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaCondRegular";src: url("./fonts/ProximaNova/CondRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaCondSemibold";src: url("./fonts/ProximaNova/CondSemibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaExCnLight";src: url("./fonts/ProximaNova/ExCnLight.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaExCnRegular";src: url("./fonts/ProximaNova/ExCnRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-
-
-
-@font-face {
-    font-family: "ProximaNovaRegular";
-    src: url("./Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-body {
-    font-family: ProximaNovaRegular;
-    background-color: #edeef0;
-    font-size: 14px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 0 15px;
-}
-
-.row {
-    margin: 0 -15px;
-}
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.cell {
-    float: left;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-.row > .cell:nth-child(1) {
-        width: 17%;
-}
-.row > .cell:nth-child(2) {
-    width: 58%;
-}
-.row > .cell:nth-child(3) {
-    width: 25%;
-    background-color:white;
-}
-
-.main-menu {
-    padding: 0;
-    margin: 0px;
-}
-.main-menu li {
-    list-style: none;
-    font-size: 14;
-    line-height: 28px;
-}
-.main-menu li a {
-    color: #00537b;
-    text-decoration: none;
-}
-
-.main-content {
-
-}
-.main-content > div {
-    background-color: white;
-    margin-bottom: 15px;
-    border-radius: 3px;
-    padding: 10px 15px;
-}
-
-.second-menu a {
-    color: #00537b;
-    text-decoration: none;
-}
-.second-menu {
-    margin:0;
-    padding:0;
-}
-.second-menu > li {
-    list-style: none;
-    line-height: 28px;
-}
-.second-menu .second-menu__submenu {
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-}
-.second-menu .second-menu__submenu > li {
-    list-style: none;
-    line-height: 28px;
-}
-
-.vk {
-    width: 20px;
+font-family: 'Proxima Nova Extra Condensed Semibold';
+src: url('ProximaNovaExCn-Semibold.eot');
+src: url('ProximaNovaExCn-Semibold.eot?#iefix') format('embedded-opentype'),
+url('ProximaNovaExCn-Semibold.woff') format('woff'),
+url('ProximaNovaExCn-Semibold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }
