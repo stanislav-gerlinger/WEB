@@ -1,128 +1,252 @@
-@font-face {
-    font-family: "ProximaNovaLight";src: url("./fonts/ProximaNova/Light.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaLightIt";src: url("./fonts/ProximaNova/LightIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegular";src: url("./fonts/ProximaNova/Regular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegularIt";src: url("./fonts/ProximaNova/RegularIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaSemibold";src: url("./fonts/ProximaNova/Semibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaBold";src: url("./fonts/ProximaNova/Bold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaCondRegular";src: url("./fonts/ProximaNova/CondRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaCondSemibold";src: url("./fonts/ProximaNova/CondSemibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaExCnLight";src: url("./fonts/ProximaNova/ExCnLight.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaExCnRegular";src: url("./fonts/ProximaNova/ExCnRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-
-
-
-@font-face {
-    font-family: "ProximaNovaRegular";
-    src: url("./Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
 body {
-    font-family: ProximaNovaRegular;
-    background-color: #edeef0;
-    font-size: 14px;
+ background: #edeef0; /* цвет фона страницы */
 }
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 0 15px;
+.wrapper {
+        position: absolute;
+        display: block;
+        min-width: 1280px;
+        min-height: 720px;
+   }
+.centr {
+	width: 900px; /* ширина */
+	margin: 0 auto; /* по центру */
+	color: #2a5885;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    height: 0px;
+    line-height: 27px;
+    font-size: 12.5px;
+    cursor: pointer;
+    margin-left: 425px;
 }
-
-.row {
-    margin: 0 -15px;
+ul {
+    list-style-type: none; /* Отменяет кружки */
+   }
+.line {
+	width: 116px;
+	height: 1px;
+    margin-top: 9px;
+    margin-left: 27px;
+    margin-right: 6px;
+    padding-top: 9px;
+    border-top: 1px solid #dfe2e8;
 }
-.row:after {
+.block1 {
+	width: 550px;
+	height: 52px;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid #e3e4e8;
+	margin-left: 639px;
+	margin-top: -5px;
+}
+.textblock1{
+	color: #8a8a8a;
+	margin-top: 27px;
+	margin-left: 61px;
+	font-weight: 300;
+    font-size: 13px;
+    line-height: 1.4px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	}
+.img1 {
+    background: url(https://vk.com/images/post_icon.png?10) no-repeat;
+    position: absolute;
+    left: -24px;
+    content: "";
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    background-position: left -65px;
+    margin-left: 1040px;
+    margin-top: -12px;
+        cursor: pointer;
+}
+.img2 {
+	background: url(https://vk.com/images/post_icon.png?10) no-repeat;
+	position: absolute;
+    left: -24px;
     content: '';
-    display: table;
-    clear: both;
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    background-position: left -87px;
+    margin-left: 1065px;
+    margin-top: -12px;
+        cursor: pointer;
 }
-.cell {
-    float: left;
-    padding: 0 15px;
-    box-sizing: border-box;
+.img3 {
+	background: url(https://vk.com/images/post_icon.png?10) no-repeat;
+	position: absolute;
+    left: -24px;
+    content: '';
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    background-position: left -109px;
+    margin-left: 1090px;
+    margin-top: -12px;
+        cursor: pointer;
 }
-.row > .cell:nth-child(1) {
-        width: 17%;
+.img4 {
+	background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20width%3D%2224%22%20height%3D%2224%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23728FB5%22%20d%3D%22M8%2C6%20L8%2C13%20C8%2C13.5522847%207.55228475%2C14%207%2C14%20C6.44771525%2C14%206%2C13.5522847%206%2C13%20L6%2C6%20L4%2C6%20C3.44771525%2C6%203%2C5.55228475%203%2C5%20L3%2C5%20L3%2C5%20C3%2C4.44771525%203.44771525%2C4%204%2C4%20L4%2C4%20L10%2C4%20C10.5522847%2C4%2011%2C4.44771525%2011%2C5%20L11%2C5%20C11%2C5.55228475%2010.5522847%2C6%2010%2C6%20L8%2C6%20Z%20M12%2C12%20L20%2C12%20C20.5522847%2C12%2021%2C12.4477153%2021%2C13%20C21%2C13.5522847%2020.5522847%2C14%2020%2C14%20L12%2C14%20C11.4477153%2C14%2011%2C13.5522847%2011%2C13%20C11%2C12.4477153%2011.4477153%2C12%2012%2C12%20Z%20M14%2C7%20L20%2C7%20C20.5522847%2C7%2021%2C7.44771525%2021%2C8%20C21%2C8.55228475%2020.5522847%2C9%2020%2C9%20L14%2C9%20C13.4477153%2C9%2013%2C8.55228475%2013%2C8%20C13%2C7.44771525%2013.4477153%2C7%2014%2C7%20Z%20M6%2C17%20L20%2C17%20C20.5522847%2C17%2021%2C17.4477153%2021%2C18%20C21%2C18.5522847%2020.5522847%2C19%2020%2C19%20L6%2C19%20C5.44771525%2C19%205%2C18.5522847%205%2C18%20C5%2C17.4477153%205.44771525%2C17%206%2C17%20Z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E) no-repeat;
+    left: 0;
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    margin-left: 1092px;
+    margin-top: -13px;
+        cursor: pointer;
 }
-.row > .cell:nth-child(2) {
-    width: 58%;
-}
-.row > .cell:nth-child(3) {
-    width: 25%;
-    background-color:white;
-}
-
-.main-menu {
-    padding: 0;
-    margin: 0px;
-}
-.main-menu li {
-    list-style: none;
-    font-size: 14;
-    line-height: 28px;
-}
-.main-menu li a {
-    color: #00537b;
-    text-decoration: none;
-}
-
-.main-content {
-
-}
-.main-content > div {
-    background-color: white;
-    margin-bottom: 15px;
-    border-radius: 3px;
-    padding: 10px 15px;
-}
-
-.second-menu a {
-    color: #00537b;
-    text-decoration: none;
-}
-.second-menu {
-    margin:0;
-    padding:0;
-}
-.second-menu > li {
-    list-style: none;
-    line-height: 28px;
-}
-.second-menu .second-menu__submenu {
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-}
-.second-menu .second-menu__submenu > li {
-    list-style: none;
-    line-height: 28px;
-}
-
-.vk {
+.img5 {
+	background: url(https://vk.com/images/poster/color_button_20.png) no-repeat;
+	position: relative;
+    top: -1px;
+    background-repeat: no-repeat;
+    height: 20px;
     width: 20px;
+    opacity: 1;
+    cursor: pointer;
+    margin-left: 510px;
+    margin-top: -21px;
+        cursor: pointer;
+}
+.line3 {
+	width: 1px;
+	height: 20px;
+    background: #e7e8ec;
+    margin-left: 490px;
+    margin-top: -10px;
+}
+
+.block2 {
+	width: 550px;
+	height: 240px;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid #e3e4e8;
+	margin-top: 12px;
+	margin-left: 638px;
+}
+.texthistory1 {
+    color: #000;
+	margin-top: 14px;
+	margin-left: 21px;
+	font-weight: 300;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.texthistory2 {
+	color: #8a8a8a;
+	margin-top: -18px;
+	margin-left: 465px;
+	font-weight: 400px;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    cursor: pointer;
+}
+.textmane {
+	color: #000;
+	font-family: ProximaNova-Light,sans-serif;
+	margin-left: 22px;
+	font-weight: bolder;
+    font-size: 15.5px;
+    line-height: 1.5;
+    margin-top: 9px;
+
+}
+.block3 {
+	width: 230px;
+	height: 312px;
+	background: #fff;
+	border: 1px solid #e3e4e8;
+	margin: 0 auto;
+    margin-top: -307px;
+    margin-right: -4px;
+}
+.text3 {
+	margin-top: -8px;
+	margin-left: -30px;
+	font-weight: 300;
+	display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 32px;
+    line-height: 29px;
+    padding: 0.5px 0.20px;
+    color: #2a5885;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    cursor: pointer;
+}
+.line2 {
+	border-top: 1px solid #e7e8ec;
+    margin: 6px 15px;
+    width: 185px;
+	height: 1px;
+	margin-left: -5px;
+}
+.text4 {
+	color: #8a8a8a;
+	margin-top: -5px;
+	margin-left: -15px;
+	font-weight: 300;
+    font-size: 13px;
+    line-height: 29px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.block4 {
+	width: 225px;
+	height: 40px;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid #e3e4e8;
+	margin-top: 19px;
+	margin-left: 1203px;
+}
+.img6 {
+    background: url(https://vk.com/images/icons/interesting.png) no-repeat;
+    padding-left: 19px;
+    border-left: 15px solid transparent;
+    background-position: left 0px;
+    font-size: 12.5px;
+    line-height: 15px;
+    cursor: pointer;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    margin-top: 15px;
+}
+.button {
+	width: 28px;
+    height: 9px;
+    border-radius: 45px;
+    background-color: #ced7e0;
+    cursor: pointer;
+    background-color: #bccde0;
+    margin: 0 auto;
+    margin-top: -13px;
+    margin-left: 180px;
+}
+.krug {
+	content: '';
+    float: left;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #b4bfcc;
+    background-color: #fff;
+    top: -3px;
+    left: 0;
+}
+.textvib {
+	height: 20px;
+	width: 255px;
+	background: #f0f2f5;
+	margin: 0 auto;
+	border: 1px solid #e3e4e8;
+	margin-top: 15px;
+	margin-left: 1238px;
 }
