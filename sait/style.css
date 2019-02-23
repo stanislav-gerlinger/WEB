@@ -1,0 +1,96 @@
+@font-face{
+font-family: 'ProximaNova';
+src: url('../fonts/ProximaNova-Light.eot');
+src: url('../fonts/ProximaNova-Light.eot?iefix') format('eot'),
+url('../fonts/ProximaNova-Light.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+.menu{
+    list-style: none;
+    font-family: 'ProximaNova';
+    color: #2a5885;
+    display: block;
+    width: 125px;
+    height: 28px;
+}
+.klass{
+    display: flex;
+	justify-content: flex-end;
+align-items: flex-end;
+}
+p.poruad{
+flex-grow:1;
+}
+div.poruad{
+    flex-grow:0;
+}
+.oform{
+    color: #2a5885;
+margin-left: 3px;
+margin-right: 3px;
+    height: 20px;
+    width: 20px;
+}
+.menuas{
+    list-style: none;
+    font-family: 'ProximaNova';
+    color: #2a5885;
+    display: block;
+    width: 125px;
+    height: 28px;
+}
+
+.middle{
+    padding: 0;
+}
+.panel{
+    background: white;
+    width: 550px;
+    height: 52px;
+    margin-right: 10px;
+    display: flex;
+	justify-content: center;
+align-items: center;
+}
+.block{
+width: 470px;
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;   
+    
+}
+.menuas:hover{
+background:#ed9ef0;
+}
+.container{
+ 
+    padding-top: 15px;
+}
+.col-3.gr{
+     background: white;
+    height: max-content;
+    width: 230px;
+    padding-left: 0px;
+}
+.nad{
+    padding-left: 15px;
+}
+.pod{
+    color: #808080;
+    padding-left: 15px;
+}
+.menuas.pod{
+    color: #808080;  
+    
+}
+.col-3.gr:first-child{
+   background:#ed9ef0; 
+}
+.menuas.active{
+background:#ed9ef0;
+   color: black;
+}
+section{
+background: #edeef0;
+}
