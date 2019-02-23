@@ -1,128 +1,96 @@
-@font-face {
-    font-family: "ProximaNovaLight";src: url("./fonts/ProximaNova/Light.woff") format("woff");font-style: normal;font-weight: normal;
+@font-face{
+font-family: 'ProximaNova';
+src: url('../fonts/ProximaNova-Light.eot');
+src: url('../fonts/ProximaNova-Light.eot?iefix') format('eot'),
+url('../fonts/ProximaNova-Light.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 }
-@font-face {
-    font-family: "ProximaNovaLightIt";src: url("./fonts/ProximaNova/LightIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegular";src: url("./fonts/ProximaNova/Regular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaRegularIt";src: url("./fonts/ProximaNova/RegularIt.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaSemibold";src: url("./fonts/ProximaNova/Semibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaBold";src: url("./fonts/ProximaNova/Bold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaCondRegular";src: url("./fonts/ProximaNova/CondRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaCondSemibold";src: url("./fonts/ProximaNova/CondSemibold.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-@font-face {
-    font-family: "ProximaNovaExCnLight";src: url("./fonts/ProximaNova/ExCnLight.woff") format("woff");font-style: normal;font-weight: normal;
-}
-@font-face {
-    font-family: "ProximaNovaExCnRegular";src: url("./fonts/ProximaNova/ExCnRegular.woff") format("woff");font-style: normal;font-weight: normal;
-}
-
-
-
-
-@font-face {
-    font-family: "ProximaNovaRegular";
-    src: url("./Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-body {
-    font-family: ProximaNovaRegular;
-    background-color: #edeef0;
-    font-size: 14px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 0 15px;
-}
-
-.row {
-    margin: 0 -15px;
-}
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.cell {
-    float: left;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-.row > .cell:nth-child(1) {
-        width: 17%;
-}
-.row > .cell:nth-child(2) {
-    width: 58%;
-}
-.row > .cell:nth-child(3) {
-    width: 25%;
-    background-color:white;
-}
-
-.main-menu {
-    padding: 0;
-    margin: 0px;
-}
-.main-menu li {
+.menu{
     list-style: none;
-    font-size: 14;
-    line-height: 28px;
+    font-family: 'ProximaNova';
+    color: #2a5885;
+    display: block;
+    width: 125px;
+    height: 28px;
 }
-.main-menu li a {
-    color: #00537b;
-    text-decoration: none;
+.klass{
+    display: flex;
+	justify-content: flex-end;
+align-items: flex-end;
 }
-
-.main-content {
-
+p.poruad{
+flex-grow:1;
 }
-.main-content > div {
-    background-color: white;
-    margin-bottom: 15px;
-    border-radius: 3px;
-    padding: 10px 15px;
+div.poruad{
+    flex-grow:0;
 }
-
-.second-menu a {
-    color: #00537b;
-    text-decoration: none;
-}
-.second-menu {
-    margin:0;
-    padding:0;
-}
-.second-menu > li {
-    list-style: none;
-    line-height: 28px;
-}
-.second-menu .second-menu__submenu {
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
-}
-.second-menu .second-menu__submenu > li {
-    list-style: none;
-    line-height: 28px;
-}
-
-.vk {
+.oform{
+    color: #2a5885;
+margin-left: 3px;
+margin-right: 3px;
+    height: 20px;
     width: 20px;
+}
+.menuas{
+    list-style: none;
+    font-family: 'ProximaNova';
+    color: #2a5885;
+    display: block;
+    width: 125px;
+    height: 28px;
+}
+
+.middle{
+    padding: 0;
+}
+.panel{
+    background: white;
+    width: 550px;
+    height: 52px;
+    margin-right: 10px;
+    display: flex;
+	justify-content: center;
+align-items: center;
+}
+.block{
+width: 470px;
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;   
+    
+}
+.menuas:hover{
+background:#ed9ef0;
+}
+.container{
+ 
+    padding-top: 15px;
+}
+.col-3.gr{
+     background: white;
+    height: max-content;
+    width: 230px;
+    padding-left: 0px;
+}
+.nad{
+    padding-left: 15px;
+}
+.pod{
+    color: #808080;
+    padding-left: 15px;
+}
+.menuas.pod{
+    color: #808080;  
+    
+}
+.col-3.gr:first-child{
+   background:#ed9ef0; 
+}
+.menuas.active{
+background:#ed9ef0;
+   color: black;
+}
+section{
+background: #edeef0;
 }
