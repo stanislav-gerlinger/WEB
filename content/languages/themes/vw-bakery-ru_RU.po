@@ -1,0 +1,850 @@
+# Translation of Themes - VW Bakery in Russian
+# This file is distributed under the same license as the Themes - VW Bakery package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-08 14:45:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - VW Bakery\n"
+
+#. Description of the plugin/theme
+msgid "VW Bakery is a delicious looking, sleek, charming, versatile and neatly crafted WordPress theme for bakery, cake and pastry shop, café and coffee house, sweet shop, beverages, juice, smoothie and shake centre, multi-cuisine restaurant, food joint, eatery, chocolate and cookie shop and similar food business and website. It can be bent to use it for food blogging. By changing the colour scheme from feminine to dark and bold, it can be used for bars, clubs and pubs. It has a pleasant design which when decorated with mouth-watering images of cakes, pastries, cookies and shakes in the gallery will surely attract every visitor to take a deep look into the site. Banners and sliders are provided that further add to the attractiveness of the site. This bakery WordPress theme is fully responsive, multilingual, cross-browser compatible and RTL writing supportive yielding a modern website. Customization is a powerful tool provided by it to make it look and feel your way. Make your bakery reach every house through the social media icons that are integrated with the theme. It is optimized for search engines to get a good traffic for website. It being coded in clean and secure manner protects website from security breaches. Demo: https://www.vwthemes.net/vw-bakery-pro/"
+msgstr "VW Bakery - восхитительная, идеальная, очаровательная, универсальная и аккуратно созданная WordPress тема для пекарни, магазина со сладостями, кафе и кафейни, кондитерской, напитков, соков, коктейлей и шейков, ресторана с несколькими кухнями, закусочная, магазин шоколада и печенья и любого аналогичного пищевого бизнеса и веб-сайта. Она может быть настроена, для ведения кулинарного блога в сети. Изменяя цветовую схему от нежной до темной и дерзкой, ее можно использовать для баров, клубов и пабов. Она имеет приятный дизайн, который при оформлении аппетитными изображений тортов, выпечки, печенья и коктейлей в галерее наверняка привлечет каждого посетителя, для более детального изучения содержимого сайта. Предусмотрены баннеры и слайдеры, которые дополнительно добавляют привлекательность сайту. Эта тема для пекарни на WordPress полностью адаптивна, многоязычна, совместима с браузерами и поддерживает RTL, что в итоге создает современный веб-сайт. Настройка - это мощный инструмент, предоставляемый темой, чтобы она выглядел и соответствовала вашему виденью. Сделайте свою пекарню доступной в каждом доме через иконки социальных сетей, которые добавлены в тему. Она оптимизирована для поисковых систем, чтобы получить хороший трафик для вашего веб-сайта. Она написана на чистом и безопасном коде, способным защитить веб-сайт от нарушений безопасности. Демо: https://www.vwthemes.net/vw-bakery-pro/"
+
+#. Theme Name of the plugin/theme
+msgid "VW Bakery"
+msgstr "VW Bakery"
+
+#: inc/getstarted/getstarted.php:354
+msgid "View FAQ"
+msgstr "Посмотрите \"Частые вопросы\""
+
+#: inc/getstarted/getstarted.php:352
+msgid "We have gathered top most, frequently asked questions and answered them for your easy understanding. We will list down more as we get new challenging queries. Check back often."
+msgstr "Мы собрали самые популярные, часто задаваемые вопросы и ответили на них, для того что бы вы лучше понимали. Мы будем добавлять больше ответов, поскольку у нас появятся новые интересные вопросы. Проверяйте их чаще."
+
+#: inc/getstarted/getstarted.php:351
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: inc/getstarted/getstarted.php:347
+msgid "About Child Theme"
+msgstr "Про дочернюю тему"
+
+#: inc/getstarted/getstarted.php:345
+msgid "For theme file customizations, make modifications in the child theme and not in the main theme file."
+msgstr "Для настроек файла темы внесите изменения в дочернюю тему, а не в файл основной темы."
+
+#: inc/getstarted/getstarted.php:344
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: inc/getstarted/getstarted.php:340
+msgid "Get Pro"
+msgstr "Получить Pro"
+
+#: inc/getstarted/getstarted.php:338
+msgid "To gain access to extra theme options and more interesting features, upgrade to pro version."
+msgstr "Чтобы получить доступ к дополнительным параметрам темы и более интересным функциям, выполните обновление до версии pro."
+
+#: inc/getstarted/getstarted.php:337
+msgid "Pro Version"
+msgstr "Версия PRO"
+
+#: inc/getstarted/getstarted.php:320
+msgid "Seamless Customer Support"
+msgstr "Полная поддержка клиентов"
+
+#: inc/getstarted/getstarted.php:315
+msgid "All Access Theme Pass"
+msgstr "Все доступы темы проверены"
+
+#: inc/getstarted/getstarted.php:310
+msgid "Custom Feature Addition"
+msgstr "Добавление пользовательской функции"
+
+#: inc/getstarted/getstarted.php:305
+msgid "Priority Error Fixing"
+msgstr "Исправление приоритетной ошибки"
+
+#: inc/getstarted/getstarted.php:300
+msgid "Budget Friendly Value"
+msgstr "Бюджетная дружеская стоимость"
+
+#: inc/getstarted/getstarted.php:295
+msgid "Premium Membership"
+msgstr "Премиум членство"
+
+#: inc/getstarted/getstarted.php:290
+msgid "Custom Background, Colors, Header, Logo & Menu"
+msgstr "Пользовательский фон, цвета, шапка, логотип и меню"
+
+#: inc/getstarted/getstarted.php:285
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: inc/getstarted/getstarted.php:280
+msgid "Support to add custom CSS / JS "
+msgstr "Поддержка добавления пользовательских CSS / JS "
+
+#: inc/getstarted/getstarted.php:275
+msgid "Simple & Mega Menu Option"
+msgstr "Настройки простого и Mega Menu"
+
+#: inc/getstarted/getstarted.php:270
+msgid "Gallery"
+msgstr "Галерея"
+
+#: inc/getstarted/getstarted.php:265
+msgid "Section Google Font Choices"
+msgstr "Раздел выбора Google шрифтов"
+
+#: inc/getstarted/getstarted.php:260
+msgid "Section Enable / Disable"
+msgstr "Раздел Включить / выключить"
+
+#: inc/getstarted/getstarted.php:255
+msgid "Exclusive Functionalities"
+msgstr "Эксклюзивные функции"
+
+#: inc/getstarted/getstarted.php:250
+msgid "Secure and Optimized Code"
+msgstr "Безопасный и оптимизированый код"
+
+#: inc/getstarted/getstarted.php:245
+msgid "Support 3rd Party Plugins"
+msgstr "Поддержка плагинов сторонних разработчиков"
+
+#: inc/getstarted/getstarted.php:240
+msgid "Woo-Commerce Compatibility"
+msgstr "Совместимость с Woo-Commerce"
+
+#: inc/getstarted/getstarted.php:235
+msgid "Latest WordPress Compatibility"
+msgstr "Совместимость с последними версиями WordPress"
+
+#: inc/getstarted/getstarted.php:230
+msgid "Full Documentation"
+msgstr "Полная документация"
+
+#: inc/getstarted/getstarted.php:227
+msgid "2(Left/Right Sidebar)"
+msgstr "2(Левая/Правая боковая панель)"
+
+#: inc/getstarted/getstarted.php:225
+msgid "Page Templates & Layout"
+msgstr "Шаблон и разметка страницы"
+
+#: inc/getstarted/getstarted.php:222
+msgid "3(Full width/Left/Right Sidebar)"
+msgstr "3(Полноэкранный/Левая/Правая боковая панель)"
+
+#: inc/getstarted/getstarted.php:220
+msgid "Blog Templates & Layout"
+msgstr "Шаблоны и разметка блога"
+
+#: inc/getstarted/getstarted.php:215
+msgid "Contact us Page Template"
+msgstr "Шаблон страницы \"Свяжитесь с нами\""
+
+#: inc/getstarted/getstarted.php:211 inc/getstarted/getstarted.php:212
+#: inc/getstarted/getstarted.php:217
+msgid "1"
+msgstr "1"
+
+#: inc/getstarted/getstarted.php:207
+msgid "6"
+msgstr "6"
+
+#: inc/getstarted/getstarted.php:206
+msgid "3"
+msgstr "3"
+
+#: inc/getstarted/getstarted.php:205
+msgid "Template Pages"
+msgstr "Шаблон страниц"
+
+#: inc/getstarted/getstarted.php:202
+msgid "Unlimited"
+msgstr "неограниченно"
+
+#: inc/getstarted/getstarted.php:201
+msgid "4"
+msgstr "4"
+
+#: inc/getstarted/getstarted.php:200
+msgid "Number of Slides"
+msgstr "Количество слайдов"
+
+#: inc/getstarted/getstarted.php:190
+msgid "Social Media Links"
+msgstr "Ссылки на социальные сети"
+
+#: inc/getstarted/getstarted.php:185
+msgid "Logo Upload"
+msgstr "Загрузка логотипа"
+
+#: inc/getstarted/getstarted.php:180
+msgid "Responsive Design"
+msgstr "Отзывчивый дизайн"
+
+#: inc/getstarted/getstarted.php:175
+msgid "Theme Customization"
+msgstr "Настройка темы"
+
+#: inc/getstarted/getstarted.php:170
+msgid "Premium Themes"
+msgstr "Премиум темы"
+
+#: inc/getstarted/getstarted.php:169
+msgid "Free Themes"
+msgstr "Бесплатные темы"
+
+#: inc/getstarted/getstarted.php:162
+msgid "Theme Features"
+msgstr "Возможности темы"
+
+#: inc/getstarted/getstarted.php:155
+msgid "Pro Documentation"
+msgstr "Профессиональная документация"
+
+#: inc/getstarted/getstarted.php:154
+msgid "Buy Pro"
+msgstr "Купить ПРО версию"
+
+#: inc/getstarted/getstarted.php:153
+msgid "Live Demo"
+msgstr "Демонстрация"
+
+#: inc/getstarted/getstarted.php:151
+msgid "This bakery WordPress theme is charming, youthful, energetic, reliable and fresh looking with a feminine touch to its design which is given by the choice of bright colours and stylish fonts. It is great to be used for bakery shops, cakes, pastry and chocolate house, coffee shops, sweet shops, juice and shake centres and other relevant food and beverages joint. It has so many eye-catching features and advanced functionality that this bakery WP theme is sure to give your competitors a tough fight in all respects. You can choose from the unlimited colours to change its bright and lively colours into the one that suits your brand. Its flexible layout can be changed from boxed to full-width with the option to club it with sidebars. Its user-friendly interface of front end caters smooth navigation. The theme can be used by a novice with no coding knowledge and a webmaster with equal efficiency to design a beautiful website."
+msgstr "Это тема для пекарни на WordPress - очаровательна, современна, энергична, надежна и свежо выглядит с женским прикосновением к ее дизайну, который определяется выбором ярких цветов и стильных шрифтов. Прекрасно подойдет для сайта пекарни, пирожных, кондитерских изделиях и шоколадных домиках, кафе, магазинов со сладостями, продажи соков и коктейлей и других соответствующих продуктов питания и напитков. У нее есть так много привлекательных функций и расширенных функциональных возможностей, что эта тема для пекарни WP непременно даст вам преимущество перед вашими конкурентам во всех отношениях. Вы можете выбирать из неограниченного количества цветов, чтобы изменить яркие и живые цвета на тот, который подходит вашему бренду. Ее гибкая компоновка может быть изменена с фиксированой на полную ширину с возможностью объединения ее с боковыми панелями. Ее удобный интерфейс передней панели обеспечивает плавную навигацию. Тема может использоваться как новичком без знания кодирования так и веб-мастером с равной эффективностью для разработки красивого веб-сайта."
+
+#: inc/getstarted/getstarted.php:148
+msgid "Premium Theme Information"
+msgstr "Информация о премиум теме"
+
+#: inc/getstarted/getstarted.php:142
+msgid " Once you are done with this, you can see all the demo content on front page. "
+msgstr "Как только вы закончите с этим, вы сможете увидеть весь демонстрационный контент на первой странице."
+
+#: inc/getstarted/getstarted.php:140
+msgid " Settings -&gt; Reading --&gt; Set the front page display static page to home page "
+msgstr "Насткройки -&gt; Чтение --&gt; Установите статическую страницу как домашнюю страницу "
+
+#: inc/getstarted/getstarted.php:139
+msgid " Go to "
+msgstr "Перейти"
+
+#: inc/getstarted/getstarted.php:139
+msgid "2. Set the front page:"
+msgstr "2. Установить главную страницу:"
+
+#: inc/getstarted/getstarted.php:137
+msgid "Label it \"home\" or anything as you wish. Then select template \"home-page\" from template dropdown."
+msgstr "Пометьте ее как «главная» или как вам больше нравиться. Затем выберите шаблон «домашняя страница» из раскрывающегося списка шаблонов."
+
+#: inc/getstarted/getstarted.php:136
+msgid "Dashboard &gt;&gt; Pages &gt;&gt; Add New Page"
+msgstr "Консоль &gt;&gt; Страницы &gt;&gt; Добавить новую страницу"
+
+#: inc/getstarted/getstarted.php:135
+msgid "1. Create a Page to set template:  Go to "
+msgstr "1. Создайте страницу для установки шаблона: Перейдите в "
+
+#: inc/getstarted/getstarted.php:133
+msgid "Follow these instructions to setup Home page."
+msgstr "Следуйте этим инструкциям, чтобы настроить домашнюю страницу."
+
+#: inc/getstarted/getstarted.php:131
+msgid "How to set up Home Page Template"
+msgstr "Как настроить шаблон домашней страницы"
+
+#: inc/getstarted/getstarted.php:124
+msgid "Footer Text"
+msgstr "Текст подвала"
+
+#: inc/getstarted/getstarted.php:121
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: inc/getstarted/getstarted.php:115
+msgid "Footer Widget"
+msgstr "Виджет подвала"
+
+#: inc/getstarted/getstarted.php:112
+msgid "Menus"
+msgstr "Меню"
+
+#: inc/getstarted/getstarted.php:107
+msgid "Bakery Product Section"
+msgstr "Раздел товаров Bakery"
+
+#: inc/getstarted/getstarted.php:104
+msgid "Topbar Section"
+msgstr "Раздел верхней панели"
+
+#: inc/getstarted/getstarted.php:96
+msgid "Upload your logo"
+msgstr "Загрузите ваше лого"
+
+#: inc/getstarted/getstarted.php:91
+msgid "Link to customizer"
+msgstr "Ссылка на настройщик"
+
+#: inc/getstarted/getstarted.php:88
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: inc/getstarted/getstarted.php:86
+msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
+msgstr "Все функции и аспекты этой WordPress темы феноменальны. Я бы рекомендовал эту тему всем."
+
+#: inc/getstarted/getstarted.php:85
+msgid "Reviews & Testimonials"
+msgstr "Обзоры и отзывы"
+
+#: inc/getstarted/getstarted.php:82
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: inc/getstarted/getstarted.php:80
+msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
+msgstr "Наша целеустремленная команда хорошо подготовлена, чтобы помочь вам в случае вопросов и сомнений относительно нашей темы."
+
+#: inc/getstarted/getstarted.php:79
+msgid "Having Trouble, Need Support?"
+msgstr "Проблемы, нужна в поддержка?"
+
+#: inc/getstarted/getstarted.php:76
+msgid "Customizing"
+msgstr "Настройка"
+
+#: inc/getstarted/getstarted.php:74
+msgid "To begin customizing your website, start by clicking \"Customize\"."
+msgstr "Чтобы начать настройку своего сайта, начните с нажатия «Настроить»."
+
+#: inc/getstarted/getstarted.php:73
+msgid "Theme Customizer"
+msgstr "Настройщик темы"
+
+#: inc/getstarted/getstarted.php:70
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/getstarted/getstarted.php:68
+msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
+msgstr "Если вам нужна помощь в установке и настройке темы, тут наша документация."
+
+#: inc/getstarted/getstarted.php:67
+msgid "Theme Documentation"
+msgstr "Документация темы"
+
+#: inc/getstarted/getstarted.php:65
+msgid "VW Bakery is a delicious looking, sleek, charming, versatile and neatly crafted WordPress theme for bakery, cake and pastry shop, cafe and coffee house, sweet shop, beverages, juice, smoothie and shake centre, multi-cuisine restaurant, food joint, eatery, chocolate and cookie shop and similar food business and website. It can be bent to use it for food blogging. By changing the colour scheme from feminine to dark and bold, it can be used for bars, clubs and pubs. It has a pleasant design which when decorated with mouth-watering images of cakes, pastries, cookies and shakes in the gallery will surely attract every visitor to take a deep look into the site. Banners and sliders are provided that further add to the attractiveness of the site. This bakery WordPress theme is fully responsive, multilingual, cross-browser compatible and RTL writing supportive yielding a modern website. Customization is a powerful tool provided by it to make it look and feel your way. Make your bakery reach every house through the social media icons that are integrated with the theme. It is optimized for search engines to get a good traffic for website. It being coded in clean and secure manner protects website from security breaches."
+msgstr "VW Bakery - восхитительная, идеальная, очаровательная, универсальная и аккуратно созданная WordPress тема для пекарни, магазина со сладостями, кафе и кафейни, кондитерской, напитков, соков, коктейлей и шейков, ресторана с несколькими кухнями, закусочная, магазин шоколада и печенья и любого аналогичного пищевого бизнеса и веб-сайта. Она может быть настроена, для ведения кулинарного блога в сети. Изменяя цветовую схему от нежной до темной и дерзкой, ее можно использовать для баров, клубов и пабов. Она имеет приятный дизайн, который при оформлении аппетитными изображений тортов, выпечки, печенья и коктейлей в галерее наверняка привлечет каждого посетителя, для более детального изучения содержимого сайта. Предусмотрены баннеры и слайдеры, которые дополнительно добавляют привлекательность сайту. Эта тема для пекарни на WordPress полностью адаптивна, многоязычна, совместима с браузерами и поддерживает RTL, что в итоге создает современный веб-сайт. Настройка - это мощный инструмент, предоставляемый темой, чтобы она выглядел и соответствовала вашему виденью. Сделайте свою пекарню доступной в каждом доме через иконки социальных сетей, которые добавлены в тему. Она оптимизирована для поисковых систем, чтобы получить хороший трафик для вашего веб-сайта. Она написана на чистом и безопасном коде, способным защитить веб-сайт от нарушений безопасности."
+
+#: inc/getstarted/getstarted.php:63
+msgid "Lite Theme Information"
+msgstr "Информация об облегченной теме"
+
+#: inc/getstarted/getstarted.php:58
+msgid "Support"
+msgstr "Техподдержка"
+
+#: inc/getstarted/getstarted.php:57
+msgid "Get Premium"
+msgstr "Приобрести Премиум"
+
+#: inc/getstarted/getstarted.php:56
+msgid "Getting Started"
+msgstr "Приступаем к работе"
+
+#: inc/getstarted/getstarted.php:49 inc/getstarted/getstarted.php:327
+msgid "Upgrade to Pro"
+msgstr "Обновиться до PRO-версии"
+
+#: inc/getstarted/getstarted.php:47
+msgid "vwten2018"
+msgstr "vwten2018"
+
+#: inc/getstarted/getstarted.php:47
+msgid "Use Coupon"
+msgstr "Использовать купон"
+
+#: inc/getstarted/getstarted.php:46
+msgid "Buy VW Tour at 10% Discount"
+msgstr "Купите VW Tour со скидкой 10%"
+
+#: inc/getstarted/getstarted.php:39
+msgid "All our WordPress themes are modern, minimalist, 100% responsive, seo-friendly,feature-rich, and multipurpose that best suit designers, bloggers and other professionals who are working in the creative fields."
+msgstr "Все наши WordPress темы являются современными, минималистичными, 100% адаптивными, подготовлеными к seo, с богатым функционалом и многофункциональными, которые идеально подойдут дизайнерам, блоггерам и другим профессионалам, которые работают в области творчества."
+
+#: inc/getstarted/getstarted.php:38
+msgid "Welcome to VW Bakery Theme"
+msgstr "Добро пожаловать в тему VW Bakery"
+
+#: inc/getstarted/getstarted.php:5
+msgid "About VW Bakery"
+msgstr "Про VW Bakery"
+
+#. #-#-#-#-#  vw-bakery.pot (VW Bakery 0.2)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/getstarted/getstarted.php:210
+msgid "Home Page Template"
+msgstr "Шаблон домашней страницы"
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr "Вы должны войти в систему для покупки."
+
+#: template-parts/single-post-layout.php:40
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: template-parts/single-post-layout.php:39
+msgid "Previous"
+msgstr "Назад"
+
+#: template-parts/single-post-layout.php:37
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: template-parts/single-post-layout.php:36
+msgid "Next"
+msgstr "Далее"
+
+#: template-parts/single-post-layout.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">%title</span>"
+
+#: template-parts/single-post-layout.php:14
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: template-parts/single-post-layout.php:14
+msgid "0 Comments"
+msgstr "0 комментариев"
+
+#: template-parts/single-post-layout.php:14
+msgid "0 Comment"
+msgstr "Нет комментариев"
+
+#: template-parts/image-layout.php:32
+msgid "Edit"
+msgstr "Изменить"
+
+#: template-parts/image-layout.php:27
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: template-parts/content.php:26 template-parts/grid-layout.php:24
+msgid "Read More"
+msgstr "Подробнее"
+
+#: sidebar.php:17
+msgid "Meta"
+msgstr "Мета"
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr "Архивы"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "Искать"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Найти"
+
+#. translators: %s: search term
+#: search.php:18 search.php:51 search.php:83 search.php:115 search.php:149
+#: search.php:183 search.php:218
+msgid "Results For: %s"
+msgstr "Результаты поиска: %s"
+
+#: page-template/custom-home-page.php:113
+msgid "Contact us"
+msgstr "Обратная связь"
+
+#: page-template/custom-home-page.php:113
+msgid "#"
+msgstr "№"
+
+#: page-template/custom-home-page.php:41 template-parts/content.php:26
+#: template-parts/grid-layout.php:24
+msgid "READ MORE"
+msgstr "Подробнее"
+
+#: no-results.php:19
+msgid "Back to Home Page"
+msgstr "Перейти на домашнюю страницу"
+
+#: no-results.php:15
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: no-results.php:13
+msgid "Ready to publish your first post? Get started here."
+msgstr "Готовы опубликовать вашу первую запись? Начните отсюда."
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: inc/social-widgets/social-icon.php:95
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: inc/social-widgets/social-icon.php:91
+msgid "Tumblr:"
+msgstr "Tumblr:"
+
+#: inc/social-widgets/social-icon.php:87
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: inc/social-widgets/social-icon.php:83
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: inc/social-widgets/social-icon.php:79
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: inc/social-widgets/social-icon.php:75
+msgid "Google+:"
+msgstr "Google+:"
+
+#: inc/social-widgets/social-icon.php:71
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: inc/social-widgets/social-icon.php:67
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: inc/social-widgets/social-icon.php:16
+msgid "Widget for Social icons section"
+msgstr "Виджет для раздела социальных сетей"
+
+#: inc/customizer.php:307
+msgid "Upgrade Pro"
+msgstr "Обновиться до Pro"
+
+#: inc/customizer.php:306
+msgid "Bakery Pro Theme"
+msgstr "Тема Bakery Pro"
+
+#: inc/customizer.php:222
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: inc/customizer.php:213
+msgid "This section will appear in the footer"
+msgstr "Этот раздел появится в футере"
+
+#: inc/customizer.php:212
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: inc/customizer.php:205
+msgid "Select Product Page"
+msgstr "Выберите страницу товары"
+
+#: inc/customizer.php:194
+msgid "Bakery products"
+msgstr "Товары Bakery"
+
+#: inc/customizer.php:186
+msgid "Slider image size (1500 x 600)"
+msgstr "Размер изображения слайдера (1500 x 600)"
+
+#: inc/customizer.php:185
+msgid "Select Slide Image Page"
+msgstr "Выберите страницу слайдов"
+
+#: inc/customizer.php:173
+msgid "Show / Hide slider"
+msgstr "Показать / Скрыть слайдер"
+
+#: inc/customizer.php:162 inc/getstarted/getstarted.php:99
+#: inc/getstarted/getstarted.php:195
+msgid "Slider Settings"
+msgstr "Настройки слайдера"
+
+#: inc/customizer.php:154
+msgid "Contact Link"
+msgstr "Контактная ссылка"
+
+#: inc/customizer.php:143
+msgid "Email Address"
+msgstr "E-mail адрес"
+
+#: inc/customizer.php:132
+msgid "Email Text"
+msgstr "Текст емейл адресс "
+
+#: inc/customizer.php:121
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: inc/customizer.php:110
+msgid "Phone no. Text"
+msgstr "Текст номер телефона"
+
+#: inc/customizer.php:99
+msgid "Opening Time"
+msgstr "Время работы"
+
+#: inc/customizer.php:88
+msgid "Opening Time Text"
+msgstr "Текст время работы"
+
+#: inc/customizer.php:77
+msgid "Location"
+msgstr "Местоположение"
+
+#: inc/customizer.php:68
+msgid "This section will appear in the topbar and below slider"
+msgstr "Этот раздел появится в верхней панели и ниже слайдера"
+
+#: inc/customizer.php:67
+msgid "Contact Section"
+msgstr "Раздел контакты"
+
+#: inc/customizer.php:56
+msgid "Here you can change the sidebar layout for pages. "
+msgstr "Здесь вы можете изменить макет боковой панели для страниц."
+
+#: inc/customizer.php:55
+msgid "Page Sidebar Layout"
+msgstr "Расположение боковой панели страницы"
+
+#: inc/customizer.php:45
+msgid "Grid Layout"
+msgstr "Сетчатый макет"
+
+#: inc/customizer.php:44
+msgid "Four Columns"
+msgstr "Четыре колонки"
+
+#: inc/customizer.php:43
+msgid "Three Columns"
+msgstr "Три колонки"
+
+#: inc/customizer.php:41 inc/customizer.php:59
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+#: inc/customizer.php:40 inc/customizer.php:61
+msgid "One Column"
+msgstr "Один столбец"
+
+#: inc/customizer.php:37
+msgid "Here you can change the sidebar layout for post. "
+msgstr "Здесь вы можете изменить макет боковой панели для записи."
+
+#: inc/customizer.php:36
+msgid "Post Sidebar Layout"
+msgstr "Макет боковой панели для записи"
+
+#: inc/customizer.php:31 inc/customizer.php:42 inc/customizer.php:50
+#: inc/customizer.php:60
+msgid "Right Sidebar"
+msgstr "Правая колонка"
+
+#: inc/customizer.php:25
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: inc/customizer.php:21
+msgid "Description of what this panel does."
+msgstr "Описание того, что делает эта панель."
+
+#: inc/customizer.php:20
+msgid "VW Settings"
+msgstr "Настройки VW"
+
+#: header.php:22
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:17
+msgid "http://gmpg.org/xfn/11"
+msgstr "http://gmpg.org/xfn/11"
+
+#: functions.php:212
+msgid "Bakery WordPress Theme "
+msgstr "Bakery WordPress тема"
+
+#: functions.php:125
+msgid "Appears on Topbar"
+msgstr "Появиться в верхней панеле"
+
+#: functions.php:124 inc/social-widgets/social-icon.php:14
+msgid "Social Icon"
+msgstr "Иконка соц. сети"
+
+#: functions.php:115
+msgid "Appears on footer 4"
+msgstr "Появится в футере 4"
+
+#: functions.php:114
+msgid "Footer Navigation 4"
+msgstr "Навигация в подвале 4"
+
+#: functions.php:105
+msgid "Appears on footer 3"
+msgstr "Появится в футере 3"
+
+#: functions.php:104
+msgid "Footer Navigation 3"
+msgstr "Навигация в подвале 3"
+
+#: functions.php:95
+msgid "Appears on footer 2"
+msgstr "Появится в футере 4"
+
+#: functions.php:94
+msgid "Footer Navigation 2"
+msgstr "Навигация в подвале 2"
+
+#: functions.php:85
+msgid "Appears on footer 1"
+msgstr "Появится в футере 1"
+
+#: functions.php:84
+msgid "Footer Navigation 1"
+msgstr "Навигация в подвале 1"
+
+#: functions.php:74
+msgid "Sidebar 3"
+msgstr "Боковая панель 3"
+
+#: functions.php:65 functions.php:75
+msgid "Appears on page sidebar"
+msgstr "Появится на боковой панели страницы"
+
+#: functions.php:64
+msgid "Page Sidebar"
+msgstr "Боковая панель страницы"
+
+#: functions.php:55
+msgid "Appears on blog page sidebar"
+msgstr "Появится на боковой панели страницы блога"
+
+#: functions.php:54
+msgid "Blog Sidebar"
+msgstr "Боковая панель блога"
+
+#: functions.php:34
+msgid "Responsive Menu"
+msgstr "Адаптивное меню"
+
+#: functions.php:33
+msgid "Primary Right Menu"
+msgstr "Основное правое меню"
+
+#: functions.php:32
+msgid "Primary Left Menu"
+msgstr "Основное левое меню"
+
+#: footer.php:31
+msgid "Copyright 2018 -"
+msgstr "Авторское право 2018 -"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария для &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:30
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий к &ldquo;%s&rdquo;"
+
+#: archive.php:45 archive.php:81 archive.php:116 archive.php:151
+#: archive.php:188 archive.php:227 archive.php:263 image.php:40 image.php:73
+#: image.php:105 image.php:137 image.php:171 image.php:206 image.php:240
+#: index.php:45 index.php:78 index.php:110 index.php:142 index.php:176
+#: index.php:211 index.php:244 search.php:40 search.php:73 search.php:105
+#: search.php:137 search.php:171 search.php:207 search.php:240 single.php:40
+#: single.php:73 single.php:105 single.php:137 single.php:171 single.php:206
+#: single.php:239
+msgid "Page"
+msgstr "Страница"
+
+#: archive.php:44 archive.php:80 archive.php:115 archive.php:150
+#: archive.php:187 archive.php:226 archive.php:262 image.php:39 image.php:72
+#: image.php:104 image.php:136 image.php:170 image.php:205 image.php:239
+#: index.php:44 index.php:77 index.php:109 index.php:141 index.php:175
+#: index.php:210 index.php:243 search.php:39 search.php:72 search.php:104
+#: search.php:136 search.php:170 search.php:206 search.php:239 single.php:39
+#: single.php:72 single.php:104 single.php:136 single.php:170 single.php:205
+#: single.php:238
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: archive.php:43 archive.php:79 archive.php:114 archive.php:149
+#: archive.php:186 archive.php:225 archive.php:261 image.php:38 image.php:71
+#: image.php:103 image.php:135 image.php:169 image.php:204 image.php:238
+#: index.php:43 index.php:76 index.php:108 index.php:140 index.php:174
+#: index.php:209 index.php:242 search.php:38 search.php:71 search.php:103
+#: search.php:135 search.php:169 search.php:205 search.php:238 single.php:38
+#: single.php:71 single.php:103 single.php:135 single.php:169 single.php:204
+#: single.php:237
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: 404.php:15
+msgid "Return to the home page"
+msgstr "Вернуться на главную страницу"
+
+#: 404.php:14 no-results.php:18
+msgid "Dont worry&hellip it happens to the best of us."
+msgstr "Не волнуйтесь, и это случилось с лучшими из нас."
+
+#: 404.php:13
+msgid "Looks like you have taken a wrong turn&hellip"
+msgstr "Похоже, вы пошли не туда&hellip"
+
+#: 404.php:12
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: 404.php:12
+msgid "404"
+msgstr "404"
+
+#. Author URI of the plugin/theme
+msgid "https://www.vwthemes.com/"
+msgstr "https://www.vwthemes.com/"
+
+#. Author of the plugin/theme
+msgid "VW Themes"
+msgstr "VW Themes"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.vwthemes.com/themes/free-bakery-wordpress-theme/"
+msgstr "https://www.vwthemes.com/themes/free-bakery-wordpress-theme/"

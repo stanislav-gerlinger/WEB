@@ -1,0 +1,62 @@
+{
+  "name": "wpscholar/wp-skeleton",
+  "description": "Setup a new WordPress installation via Composer.",
+  "license": "GPL-2.0+",
+  "type": "project",
+  "keywords": [
+    "WordPress",
+    "skeleton",
+    "CMS",
+    "blog",
+    "composer",
+    "wpackagist"
+  ],
+  "authors": [
+    {
+      "name": "Micah Wood",
+      "email": "micah@wpscholar.com",
+      "homepage": "http://wpscholar.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/wpscholar/wp-skeleton",
+    "issues": "https://github.com/wpscholar/wp-skeleton/issues"
+  },
+  "repositories": {
+    "wpackagist": {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  },
+  "require": {
+    "johnpbloch/wordpress": "@stable",
+    "composer/installers": "@stable",
+    "vlucas/phpdotenv": "^2.2"
+  },
+  "suggest": {
+    "wp-cli/wp-cli": "@stable"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "content/mu-plugins/{$name}": [
+        "type:wordpress-muplugin"
+      ],
+      "content/plugins/{$name}": [
+        "type:wordpress-plugin"
+      ],
+      "content/themes/{$name}": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "scripts": {
+    "generate-salts": [
+      "echo '<?php' > salt.php && curl -L https://api.wordpress.org/secret-key/1.1/salt/ >> salt.php"
+    ],
+    "post-create-project-cmd": [
+      "composer run generate-salts"
+    ]
+  }
+}
