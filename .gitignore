@@ -25,7 +25,7 @@
 !/content/plugins/index.php
 
 # WordPress: Themes
-/content/themes/*
+!/content/themes/*
 !/content/themes/index.php
 
 # WordPress: Uploads

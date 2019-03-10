@@ -1,0 +1,30 @@
+#customize-controls .control-section-vw-bakery .accordion-section-title:hover,
+#customize-controls .control-section-vw-bakery .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-vw-bakery .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-vw-bakery .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+.control-section-vw-bakery h3.accordion-section-title {
+	background: #52d1cd !important;
+	color: #fff !important;
+}
+a.button.button-secondary.alignright {
+	color: #fff;
+  box-shadow: 2px 2px 0px 0px #e37b91;
+  border: solid 1px #e37b91;
+  border-bottom: none;
+  background: #e37b91;
+  font-weight: bold;
+}
+a.button.button-secondary.alignright:hover {
+	background: #fff;
+  color: #e37b91;
+}
