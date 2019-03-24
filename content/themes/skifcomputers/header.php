@@ -16,7 +16,7 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php bloginfo('rss_url'); ?>">
 	<link rel="alternate" type="application/rss+xml" title="Comments RSS" href="<?php bloginfo('comments_rss2_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -24,32 +24,48 @@
 </head>
 <body <?php body_class(); ?>>
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<nav class="navbar navbar-default">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav" aria-expanded="false">
-								<span class="sr-only">Меню</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="collapse navbar-collapse" id="topnav">
-							<?php $args = array( 
-								'theme_location' => 'top',
-								'container'=> false,
-						  		'menu_id' => 'top-nav-ul',
-						  		'items_wrap' => '<ul id="%1$s" class="nav navbar-nav %2$s">%3$s</ul>',
-								'menu_class' => 'top-menu',
-						  		'walker' => new bootstrap_menu(true)		  		
-					  			);
-								wp_nav_menu($args);
-							?>
-						</div>
-					</nav>
-				</div>
-			</div>
+		<div class="container user48123801">
+			<div class="row user48123801">
+               <div class="sm-flex-5 user48123801"> 
+               <p>WhatsApp Telegram<p>
+                </div>
+               <div class="sm-flex-2 user48123801"> 
+               <img src="<?php echo get_template_directory_uri(); ?>/pictyres/logotip.jpg" alt=""это вроде как логотип>             
+                </div>            
+                <div class="sm-flex-3 user48123801"> 
+                    <a>Зарегистрироваться</a>/<a>Войти</a>
+                </div>
+            </div>
 		</div>
+        <div class="spisok user48123801">
+        <div class="container user48123801">
+			<div class="row user48123801">
+
+                <ul class="start user48123801">
+                    <li class="fer user48123801">NEW</li>
+                    <li class="fer user48123801">Для неё</li>
+                    <li class="fer user48123801">Для него</li>
+                    <li class="fer user48123801">Для детей</li>
+                    <li class="fer user48123801">Журнал</li>
+                    <li class="fer user48123801">SALE</li>
+                    <li class="fer user48123801">О магазине</li>
+                    <li class="fer user48123801">Помощь</li>
+                    <li class="fer user48123801">Контакты</li>           
+                </ul>
+                 <ul class="end user48123801">
+                    <li class="fer user48123801"><i class="fab fa-instagram"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-facebook-f"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-pinterest-p"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-twitter"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-vk"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-google-plus-g"></i></li>                
+                </ul>  
+                <div class="knopka user48123801">
+             <button class="submint user48123801">
+                    <i class="fas fa-search"></i>
+                </button>
+                    </div>
+            </div>
+		</div>
+        </div>
 	</header>
