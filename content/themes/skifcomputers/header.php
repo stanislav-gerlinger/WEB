@@ -24,7 +24,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-	<header class="user63447817 container-fluid">
+	<header class="user63447817 container-fluid bg-primary">
 		<div class="user63447817 row">
 			<div class="user63447817 header-top">
 				<div class="user63447817 col-md-2">

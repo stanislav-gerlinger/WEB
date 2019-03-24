@@ -75,3 +75,11 @@ a {
 .signle > .descr {
 	float: left;
 }
+
+.bg-primary {
+	background-color: #F0DCCB;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #CBBAAC ;
+}
