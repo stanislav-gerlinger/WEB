@@ -1,0 +1,77 @@
+/* new style */
+
+@font-face {
+	font-family: 'ProximaNova';
+	src:url('fonts/ProximaNova-Light.woff');
+}
+
+body {
+	font-family: 'ProximaNova', sans-serif;
+}
+
+.margin-10 {
+	margin: 20px;
+}
+
+.header-top {
+	height: 70px;
+	padding: 30px;
+}
+a {
+	color: #737373;
+}
+
+.header_descr {
+	color: #B2B2C8;
+}
+
+.nav li i {
+	font-size: 20px;
+}
+
+.nav li {
+	color: black;
+	font-weight: 600;
+}
+
+.loop {
+	width: 100%;
+	height: 300px;
+	background-image: url('images/image.png');
+	background-repeat: no-repeat;
+	padding-top:200px;
+
+}
+
+.loop_descr {
+	display: none;
+}
+
+.loop:hover > .loop_descr {
+	display: block;
+ 	width: 100%;
+	height: 100%;
+	background-color: #CBBAAC;
+	opacity: 0.9;
+	padding: 20px;
+}
+
+.title_descr, .sub_title {
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.title_descr {
+	font-size: 20px ;
+}
+
+
+.single > img {
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.signle > .descr {
+	float: left;
+}
