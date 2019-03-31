@@ -100,7 +100,7 @@ if (!function_exists('add_scripts')) {
 	    wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.min.js','','',true);
 	    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js','','',true);
 	    wp_enqueue_style( 'icon', get_template_directory_uri().'/fonts/font-awesome/css/font-awesome.min.css');
-		wp_enqueue_style( 'user63447817', get_template_directory_uri().'/style-post-user63447817.css');
+		wp_enqueue_style( 'user63447817', get_template_directory_uri().'/css/style-post-user63447817.css');
 	}
 }
 
