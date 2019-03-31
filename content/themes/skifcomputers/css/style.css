@@ -1,0 +1,30 @@
+@font-face{
+font-family: 'ProximaNova';
+src: url('../fonts/ProximaNova-Light.eot');
+src: url('../fonts/ProximaNova-Light.eot?iefix') format('eot'),
+url('../fonts/ProximaNova-Light.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+body{font-family: 'ProximaNova';}
+.container.user48123801{height:max-content;display: flex;flex-wrap: nowrap;float: inherit;}
+.row.user48123801{display: flex;flex-flow: row;align-items: center;}
+.user48123801{display: flex;align-items: center;}
+.sm-flex-5.user48123801{display: flex;width: 505px;}
+.sm-flex-5.user48123801 p{color: #777d8b;font-size: 12px;padding: 0 0 12 0;}
+.sm-flex-2.user48123801 img{margin: 10px auto; height: 100px;}
+.sm-flex-2.user48123801{max-height: 100px;max-width:100px;display: flex;margin: 10px;align-self: center;}
+.sm-flex-3.user48123801{display: flex;justify-content: flex-end;width: 317px;}
+.sm-flex-3.user48123801 a{color: #777d8b;font-size: 14px;}
+.sm-flex-3.user48123801 a:hover{text-decoration-line: none;}
+.menu.user48123801{display: block;align-self: center;}
+.menu.user48123801 li{display: inline; list-style: none;}
+li.fer.user48123801{padding: 0 10px 0 10px; font-size: 14.04px;color: #737373;font-weight: 300;}
+.spisok.user48123801{z-index: 0;background: #fbfbfb;}
+.start.user48123801{justify-content: flex-end;display: flex;}
+ul.start.user48123801{padding-left: 0px;margin-bottom: 0px;line-height: 3;}
+.end.user48123801 {justify-content: flex-end;display: flex;width: 250px;padding-left: 0px;margin-bottom: 0px;list-style: none;padding: 0 10px;    font-weight: bold;}
+ul.end.user48123801{padding-left: 0px;margin-bottom: 0px;line-height: 3;width: 390px;}
+.submint.user48123801{background: #d6c3b4;color: white; line-height: 3;border: none;height: 42px;width: 42px;display: flex;justify-content:center;}
+.fas.fa-search{line-height:3!important;}
+.knopka.user48123801{padding: 0px 15px;}

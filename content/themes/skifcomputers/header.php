@@ -16,57 +16,56 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php bloginfo('rss_url'); ?>">
 	<link rel="alternate" type="application/rss+xml" title="Comments RSS" href="<?php bloginfo('comments_rss2_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-	<header class="user63447817 container-fluid bg-primary">
-		<div class="user63447817 row">
-			<div class="user63447817 header-top">
-				<div class="user63447817 col-md-2">
-					<span class="user63447817 header_descr">WhatsApp Telegram</span>
-				</div>
-				<div class="user63447817 col-md-2 col-md-offset-8">
-					<a href="#" class="user63447817 registration">Зарегистрироваться / Войти</a>
-				</div>
-			</div>
+	<header>
+		<div class="container user48123801">
+			<div class="row user48123801">
+               <div class="sm-flex-5 user48123801"> 
+               <p>WhatsApp Telegram<p>
+                </div>
+               <div class="sm-flex-2 user48123801"> 
+               <img src="<?=get_template_directory_uri()?>/pictyres/logotip.jpg" alt="это вроде как логотип">             
+                </div>            
+                <div class="sm-flex-3 user48123801"> 
+                    <a>Зарегистрироваться</a>/<a>Войти</a>
+                </div>
+            </div>
 		</div>
+        <div class="spisok user48123801">
+        <div class="container user48123801">
+			<div class="row user48123801">
 
-		<div class="user63447817 row">
-			<div class="user63447817 col-md-6">
-				<nav class="user63447817 navbar">
-					<div class="user63447817 collapse navbar-collapse">
-						<?php $args = array( 
-							'theme_location' => 'top',
-							'container'=> false,
-					  		'menu_id' => 'top-nav-ul',
-					  		'items_wrap' => '<ul id="%1$s" class="nav navbar-nav %2$s">%3$s</ul>',
-							'menu_class' => 'top-menu',
-					  		'walker' => new bootstrap_menu(true)		  		
-				  			);
-							wp_nav_menu($args);
-							?>
-					</div>
-				</nav>
-			</div>
-			<div class="user63447817 col-md-3 col-md-offset-3">
-				<nav class="user63447817 navbar">
-					<div class="user63447817 collapse navbar-collapse">
-						<ul class="user63447817 nav navbar-nav">
-							<li><a href="#"><i class="user63447817 fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="user63447817 fa fa-pinterest-p"></i></a></li>
-							<li><a href="#"><i class="user63447817 fa fa-telegram"></i></a></li>
-							<li><a href="#"><i class="user63447817 fa fa-google-plus-official"></i></a></li>
-							<li><a href="#"><i class="user63447817 fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="user63447817 fa fa-vk"></i></a></li>
-						</ul>
-					</div>	
-				</nav>
-
-			</div>
+                <ul class="start user48123801">
+                    <li class="fer user48123801">NEW</li>
+                    <li class="fer user48123801">Для неё</li>
+                    <li class="fer user48123801">Для него</li>
+                    <li class="fer user48123801">Для детей</li>
+                    <li class="fer user48123801">Журнал</li>
+                    <li class="fer user48123801">SALE</li>
+                    <li class="fer user48123801">О магазине</li>
+                    <li class="fer user48123801">Помощь</li>
+                    <li class="fer user48123801">Контакты</li>           
+                </ul>
+                 <ul class="end user48123801">
+                    <li class="fer user48123801"><i class="fab fa-instagram"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-facebook-f"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-pinterest-p"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-twitter"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-vk"></i></li>
+                    <li class="fer user48123801"><i class="fab fa-google-plus-g"></i></li>                
+                </ul>  
+                <div class="knopka user48123801">
+             <button class="submint user48123801">
+                    <i class="fas fa-search"></i>
+                </button>
+                    </div>
+            </div>
 		</div>
+        </div>
 	</header>
