@@ -16,7 +16,7 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php bloginfo('rss_url'); ?>">
 	<link rel="alternate" type="application/rss+xml" title="Comments RSS" href="<?php bloginfo('comments_rss2_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -30,7 +30,7 @@
                <p>WhatsApp Telegram<p>
                 </div>
                <div class="sm-flex-2 user48123801"> 
-               <img src="<?php echo get_template_directory_uri(); ?>/pictyres/logotip.jpg" alt=""это вроде как логотип>             
+               <img src="<?=get_template_directory_uri()?>/pictyres/logotip.jpg" alt="это вроде как логотип">             
                 </div>            
                 <div class="sm-flex-3 user48123801"> 
                     <a>Зарегистрироваться</a>/<a>Войти</a>

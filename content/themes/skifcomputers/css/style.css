@@ -1,10 +1,10 @@
 @font-face{
-font-family: 'ProximaNova';
-src: url('../fonts/ProximaNova-Light.eot');
-src: url('../fonts/ProximaNova-Light.eot?iefix') format('eot'),
-url('../fonts/ProximaNova-Light.woff') format('woff');
-font-weight: normal;
-font-style: normal;
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Light.eot');
+    src: url('../fonts/ProximaNova-Light.eot?iefix') format('eot'),
+    url('../fonts/ProximaNova-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 body{font-family: 'ProximaNova';}
 .container.user48123801{height:max-content;display: flex;flex-wrap: nowrap;float: inherit;}
