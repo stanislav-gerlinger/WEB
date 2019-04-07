@@ -1,0 +1,13 @@
+.single > img {
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.signle > .descr {
+	float: left;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #CBBAAC ;
+}

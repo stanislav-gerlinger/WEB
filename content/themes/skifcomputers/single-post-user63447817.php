@@ -11,7 +11,7 @@ get_header(); ?>
 			<div class="user63447817 col-md-12">
 				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				<div class="user63447817 single" <?php post_class(); ?>>
-					<img src="<?php echo get_template_directory_uri();?>/images/image.png" alt="png">
+					<img src="<?php echo get_template_directory_uri()."/images/image.png"; ?>" alt="png">
 					<div class="user63447817 descr">
 						<h3><?php the_title(); ?></h3>
 						<p>Автор:  <?php the_author_posts_link(); ?></p>

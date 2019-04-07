@@ -1,0 +1,30 @@
+.loop {
+	width: 100%;
+	height: 300px;
+	background-image: url('images/image.png');
+	background-repeat: no-repeat;
+	padding-top:200px;
+
+}
+
+.loop_descr {
+	display: none;
+}
+
+.loop:hover > .loop_descr {
+	display: block;
+ 	width: 100%;
+	height: 100%;
+	background-color: #CBBAAC;
+	opacity: 0.9;
+	padding: 20px;
+}
+
+.title_descr, .sub_title {
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.title_descr {
+	font-size: 20px ;
+}

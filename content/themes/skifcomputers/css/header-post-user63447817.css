@@ -1,0 +1,24 @@
+.bg-primary {
+	background-color: #F0DCCB;
+}
+
+.header-top {
+	height: 70px;
+	padding: 30px;
+}
+a {
+	color: #737373;
+}
+
+.header_descr {
+	color: #B2B2C8;
+}
+
+.nav li i {
+	font-size: 20px;
+}
+
+.nav li {
+	color: black;
+	font-weight: 600;
+}

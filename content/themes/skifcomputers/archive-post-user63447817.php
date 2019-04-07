@@ -7,11 +7,15 @@
 get_header(); ?> 
 <section>
 	<div class="user63447817 container-fluid">
-		<div class="user63447817 row">
-			<div class="user63447817 col-md-8">
-				<div class="user63447817 container-fluid">
-					<h2>Записи</h2>
+		
+				
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Записи</h2>
+						</div> 
+					</div>
 					<div class="user63447817 row">
+						
 							<div class="user63447817 <?php content_class_by_sidebar(); ?>">
 								<h1><?php // заголовок архивов
 									if (is_day()) : printf('Daily Archives: %s', get_the_date());
@@ -25,13 +29,11 @@ get_header(); ?>
 								else: echo '<p>Нет записей.</p>'; endif; ?>	 
 								<?php pagination(); ?>
 							</div>
+					
+			
+					
+
 					</div>
-				</div>
-			</div>
-			<div class="user63447817 col-md-4">
-				<?php get_sidebar(); ?>
-			</div>
-		</div>
 	</div>
 </section>
 <?php get_footer(); ?>
