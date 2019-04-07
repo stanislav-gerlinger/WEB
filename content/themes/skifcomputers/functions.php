@@ -164,7 +164,7 @@ if (!function_exists('content_class_by_sidebar')) {
 	}
 }
 
-include('functions-post-user63447817.php');
+require('functions/functions-post-user63447817.php');
 
 add_action( 'init', 'register_post_type_user48123801' );
 function register_post_type_user48123801(){
