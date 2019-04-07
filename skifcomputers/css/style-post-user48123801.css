@@ -1,0 +1,34 @@
+/* new style */
+.krygok{
+    height: 100px;
+    width: 50px;
+    background: indianred;
+    border-radius: 100px;    
+  position: relative;
+    z-index: 1;
+}
+.krygok:hover{z-index: 5}
+
+.kvadrat{
+        height: 150px;
+    width: 100px;
+    background: aquamarine;
+    margin-top: -50px;
+    z-index: 3;
+   position: relative;
+    z-index: 2
+}
+.kvadrat:hover{
+     z-index: 0;
+    
+}
+.oval{
+        width: 150px;
+    height: 50px;
+    background: chartreuse;
+    border-radius: 100px;
+    margin-top: -50px;
+    z-index: 1;
+position: relative;    
+}
+.oval:hover{z-index: 5;}

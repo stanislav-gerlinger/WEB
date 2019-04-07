@@ -1,0 +1,85 @@
+
+*{font-family: 'ProximaNova-Light';}
+.container.user48123801{height:max-content;display: flex;flex-wrap: nowrap;float: inherit;}
+.row.user48123801{display: flex;flex-flow: row;align-items: center;}
+.user48123801{display: flex;align-items: center;}
+.sm-flex-5.user48123801{display: flex;width: 505px;margin-left: -50px;}
+.sm-flex-5.user48123801 p{color: #777d8b;font-size: 12px;padding: 0 0 12 0;}
+.sm-flex-2.user48123801 img{margin: 10px auto; height: 100px;}
+.sm-flex-2.user48123801{max-height: 100px;max-width:100px;display: flex;margin: 10px;align-self: center;}
+.sm-flex-3.user48123801{display: flex;justify-content: flex-end;width: 317px;}
+.sm-flex-3.user48123801 a{color: #777d8b;font-size: 14px;}
+.sm-flex-3.user48123801 a:hover{text-decoration-line: none;}
+.menu.user48123801{display: block;align-self: center;}
+.menu.user48123801 li{display: inline; list-style: none;}
+li.fer{padding: 10px 10px 10px 10px; font-size: 14.04px;color: #737373;font-weight: 300;    list-style: none;}
+.spisok.user48123801{z-index: 0;background: #fbfbfb;}
+.start.user48123801{justify-content: flex-end;display: flex;}
+ul.start.user48123801{padding-left: 0px;margin-bottom: 0px;line-height: 3;}
+.end.user48123801 {justify-content: flex-end;display: flex;width: 250px;padding-left: 0px;margin-bottom: 0px;list-style: none;padding: 0 10px;    font-weight: bold;}
+ul.end.user48123801{padding-left: 0px;margin-bottom: 0px;line-height: 3;width: 390px;margin-right: 45px;}
+.submint{    background: #d6c3b4;
+    color: white;
+    line-height: 3;
+    border: none;
+    width: 42px !important;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 12px;
+    right: 30px;}
+.fas.fa-search{line-height:3!important;}
+.knopka.user48123801{padding: 0px 15px;}
+
+li.fer:hover{
+    background: aqua;
+}
+
+a{
+    color: aqua;
+}
+.sd{
+    margin-left: 30px!important;
+    
+    
+}
+.oval{
+        width: 150px;
+    height: 50px;
+    background: chartreuse;
+    border-radius: 100px;
+    margin-top: -50px;
+    z-index: 1;
+position: relative;    
+}
+.oval:hover{z-index: 5;}
+.navbar{
+    background: #d6c3b4;  
+}
+
+
+//поле поиска
+.submint.user48123801:focus{background: red;}
+input {
+height: 50px;
+    width: 0;
+    padding: 0 36px 0 3px;
+     border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 1.97, 1, -0.92);
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    z-index: 3;
+}
+
+input:focus {
+  width: 250px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+  background: white;
+    right: 75px;
+}
