@@ -5,7 +5,11 @@
  * @subpackage S
  */
 get_header(); ?> 
+
+<? $post=56;?>
+
 <section>
+
 	<div class="container">
 		<div class="row">
 			<div class="<?php content_class_by_sidebar(); ?>">
@@ -15,7 +19,13 @@ get_header(); ?>
 					elseif (is_year()) : printf('Yearly Archives: %s', get_the_date('Y'));
 					else : 'Archives';
 				endif; ?></h1>
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                
+                <? have_posts(); ?>
+                
+                
+                
+                
+				<?/*php if (have_posts()) : while (have_posts()) : the_post();*/ ?>
 					<?php get_template_part('loop'); ?>
 				<?php endwhile;
 				else: echo '<p>Нет записей.</p>'; endif; ?>	 

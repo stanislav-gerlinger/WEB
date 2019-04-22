@@ -4,8 +4,10 @@
  * @package SkifComputers
  * @subpackage S
  */ 
+
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+    <p>id: <? the_ID();?></p>
 	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 	<div class="meta">
 		<p>Опубликовано: <?php the_time(get_option('date_format')." в ".get_option('time_format')); ?></p>
@@ -26,3 +28,4 @@
 		</div>
 	</div>
 </article>
+<!--style="border:1px solid black;"-->

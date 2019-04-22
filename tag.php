@@ -1,22 +1,16 @@
 <?php
 /**
- * Страница архивов записей (archive.php)
+ * tag template (tag.php)
  * @package SkifComputers
  * @subpackage S
  */
 get_header(); ?> 
 <section>
+    <? $post=56;?>
 	<div class="container">
 		<div class="row">
 			<div class="<?php content_class_by_sidebar(); ?>">
-				<h1><?php // заголовок архивов
-					if (is_day()) : printf('Daily Archives: %s', get_the_date());
-					elseif (is_month()) : printf('Monthly Archives: %s', get_the_date('F Y'));
-					elseif (is_year()) : printf('Yearly Archives: %s', get_the_date('Y'));
-					else : 'Archives';
-                    
-                    
-				endif; ?></h1>
+				<h1><?php printf('Посты с тэгом: %s', single_tag_title('', false)); ?></h1>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<?php get_template_part('loop'); ?>
 				<?php endwhile;

@@ -6,6 +6,7 @@
  * Template Name: Страница с кастомным шаблоном
  */
 get_header(); ?>
+<? $post=56;?>
 <section>
 	<div class="container">
 		<div class="row">
